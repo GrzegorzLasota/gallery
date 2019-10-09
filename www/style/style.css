@@ -1,0 +1,36 @@
+body {
+    background: #000;
+    color: #fff;
+}
+
+.gallery {
+    overflow: hidden;
+    max-width: 1500px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.gallery li {
+    float: left;
+    width: calc(100%/3);
+    padding: 0;
+    margin: 0;
+}
+
+.gallery img {
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .gallery li {
+        width: calc(100%/2);
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery li {
+        width: 100%;
+    }
+}
