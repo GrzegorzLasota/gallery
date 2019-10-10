@@ -10,12 +10,15 @@ body {
     margin: 20px 50px;
     margin-left: auto;
     margin-right: auto;
+    background: rgba(255, 248, 215, 0.863);
+    padding: 20px;
 }
 .container li{
     float: left;
     width: calc(100%/3);
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .description{
     display: flex;
@@ -24,10 +27,8 @@ body {
     margin-bottom: 10px;
 }
 .container .tiles{
-    width: 100%;
-    margin: 0 20px;
-    padding: 10px;
-    background: rgba(255, 248, 215, 0.863);
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     list-style-type: none;
 }
@@ -55,14 +56,14 @@ body {
 }
 @media (max-width: 768px)
 {
-    .container{
+    .container li{
         max-width: 630px;
         width: calc(100%/2);
     }
 }
 @media (max-width: 320px)
 {
-    .container{
+    .container li{
         max-width: 320px;
         width: 100%;
     }
