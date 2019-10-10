@@ -11,7 +11,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background: rgba(255, 248, 215, 0.863);
-    padding: 20px;
+    padding: 10px;
 }
 .container li{
     float: left;
@@ -31,6 +31,9 @@ body {
     padding: 0;
     overflow: hidden;
     list-style-type: none;
+}
+.split{
+    padding: 10px;
 }
 .container .tiles img{
     width: 100%;
