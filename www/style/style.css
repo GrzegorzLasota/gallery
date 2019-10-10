@@ -14,6 +14,8 @@ body {
 .container li{
     float: left;
     width: calc(100%/3);
+    margin: 0;
+    padding: 0;
 }
 .description{
     display: flex;
